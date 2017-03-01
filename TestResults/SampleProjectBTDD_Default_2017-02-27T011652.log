@@ -1,0 +1,75 @@
+﻿Discovering target: Default
+Discovering tests from assembly: C:\projects\SampleProject\SampleProjectBTDD\bin\SampleProjectBTDD.dll
+Appdomain Disposed
+Test Suite Dump
+#0: SampleProjectBTDD/Default - 
+#1: Default - 
+#3: SampleProjectBTDD - 
+#4: SampleProjectBTDD.Feature.ProductsFeature - 
+#5: VerifyTheVisibiltyOfStatesDropdown - TestAssembly:SampleProjectBTDD/TestClass:SampleProjectBTDD.Feature.ProductsFeature/TestMethod:VerifyTheVisibiltyOfStatesDropdown
+End: Test Suite Dump
+Thread#0:Scheduler: get next test for thread
+Thread#:Scheduler: testitem #5 from normal test queue 
+Thread#0:Scheduler: considering testitem #5 for thread
+Thread#0:Scheduler: using testitem #5 for thread
+Thread#0:Scheduler: Test #5 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread #0: creating new test thread executor for SampleProjectBTDD, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+Loading SpecRun type 'TechTalk.SpecRun.Framework.TestAssemblyExecutor' from: C:\Users\snswa\AppData\Local\Temp\VisualStudioTestExplorerExtensions\SpecRun.Runner.1.5.2\tools\TechTalk.SpecRun.Framework.Executor.dll
+Thread#0: Test #5/0 is started on thread #0
+Thread#0:T:Given I have navigated to Products page
+Thread#0:T:-> done: ProductsSteps.GivenIHaveNavigatedToProductsPage() (6.8s)
+Thread#0:T:And I have verified states dropdown exits
+Thread#0:T:-> error: Unable to find element with id == ddState
+Thread#0:T:When I press states dropdown
+Thread#0:T:-> skipped because of previous errors
+Thread#0:T:Then the result should states list in dropdown
+Thread#0:T:-> skipped because of previous errors
+Thread#0:Scheduler: reschedule tests for testitem #0
+Thread#0:Scheduler: get next test for thread
+Thread#:Scheduler: dequeuing a rescheduled testitem: #5
+Thread#0:Scheduler: considering testitem #5 for thread
+Thread#0:Scheduler: using testitem #5 for thread
+Thread#0:Scheduler: Test #5 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #5/0 is finished on thread #0 as Failed within 7.3982351 seconds
+Thread#0: Test #5/1 is started on thread #0
+Thread#0:T:Given I have navigated to Products page
+Thread#0:T:-> done: ProductsSteps.GivenIHaveNavigatedToProductsPage() (5.7s)
+Thread#0:T:And I have verified states dropdown exits
+Thread#0:T:-> error: Unable to find element with id == ddState
+Thread#0:T:When I press states dropdown
+Thread#0:T:-> skipped because of previous errors
+Thread#0:T:Then the result should states list in dropdown
+Thread#0:T:-> skipped because of previous errors
+Thread#0:Scheduler: get next test for thread
+Thread#:Scheduler: dequeuing a rescheduled testitem: #5
+Thread#0:Scheduler: considering testitem #5 for thread
+Thread#0:Scheduler: using testitem #5 for thread
+Thread#0:Scheduler: Test #5 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #5/1 is finished on thread #0 as Failed within 6.0559953 seconds
+Thread#0: Test #5/2 is started on thread #0
+Thread#0:T:Given I have navigated to Products page
+Thread#0:T:-> done: ProductsSteps.GivenIHaveNavigatedToProductsPage() (5.7s)
+Thread#0:T:And I have verified states dropdown exits
+Thread#0:T:-> error: Unable to find element with id == ddState
+Thread#0:T:When I press states dropdown
+Thread#0:T:-> skipped because of previous errors
+Thread#0:T:Then the result should states list in dropdown
+Thread#0:T:-> skipped because of previous errors
+Thread#0:Scheduler: get next test for thread
+Thread#:Scheduler: at the end of normal test queue
+Thread#0:Scheduler: enumerator for thread is at end
+Thread#0:Scheduler: No more tests for thread 
+Thread#0: Test #5/2 is finished on thread #0 as Failed within 6.0683076 seconds
+Appdomain Disposed
+Thread#-1:Scheduler: get next test for thread
+Thread#:Scheduler: at the end of normal test queue
+Thread#-1:Scheduler: enumerator for thread is at end
+Total: 1 (test executions: 3)
+Succeeded: 0
+Ignored: 0
+Pending: 0
+Skipped: 0
+Failed: 1
